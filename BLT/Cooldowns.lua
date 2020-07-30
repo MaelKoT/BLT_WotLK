@@ -29,7 +29,7 @@ BLT.spells = {
     ["DEATHKNIGHT"] = {
         -- Anti-Magic Zone
         [GetSpellInfo(51052)] = {
-            nr = 7,
+            nr = 1,
             id = 51052,
             cd = 120,
             spec = "Unholy",
@@ -43,7 +43,7 @@ BLT.spells = {
         },
         -- Anti-Magic Shell
         [GetSpellInfo(48707)] = {
-            nr = 10,
+            nr = 2,
             id = 48707,
             cd = 45,
             spec = "Any",
@@ -57,7 +57,7 @@ BLT.spells = {
         },
         -- Icebound Fortitude
         [GetSpellInfo(48792)] = {
-            nr = 8,
+            nr = 3,
             id = 48792,
             cd = 120,
             spec = "Any",
@@ -71,7 +71,7 @@ BLT.spells = {
         },
         -- Vampiric Blood
         [GetSpellInfo(55233)] = {
-            nr = 9,
+            nr = 4,
             id = 55233,
             cd = 60,
             spec = "Blood",
@@ -85,7 +85,7 @@ BLT.spells = {
         },
         -- Hysteria
         [GetSpellInfo(49016)] = {
-            nr = 6,
+            nr = 5,
             id = 49016,
             cd = 180,
             spec = "Blood",
@@ -96,12 +96,82 @@ BLT.spells = {
             tar = true,
             glyph = "nil",
             glyphCd = 0
+        },
+		-- Army of the Dead
+        [GetSpellInfo(42650)] = {
+            nr = 6,
+            id = 42650,
+            cd = 600,
+            spec = "Any",
+            talent = GetTalentName[42650],
+            talReq = false,
+            altCd = 120,
+            lvlReq = 55,
+            tar = false,
+            glyph = "nil",
+            glyphCd = 0
+        },
+		-- Summon Gargoyle
+        [GetSpellInfo(49206)] = {
+            nr = 7,
+            id = 49206,
+            cd = 180,
+            spec = "Unholy",
+            talent = GetTalentName[49206],
+            talReq = true,
+            altCd = "nil",
+            lvlReq = 55,
+            tar = true,
+            glyph = "nil",
+            glyphCd = 0
+        },
+		-- Death Grip
+        [GetSpellInfo(49576)] = {
+            nr = 8,
+            id = 49576,
+            cd = 35,
+            spec = "Any",
+            talent = GetTalentName[49576],
+            talReq = false,
+            altCd = 5,
+            lvlReq = 55,
+            tar = true,
+            glyph = "nil",
+            glyphCd = 0
+        },
+		-- Strangulate
+        [GetSpellInfo(47476)] = {
+            nr = 9,
+            id = 47476,
+            cd = 120,
+            spec = "Any",
+            talent = "nil",
+            talReq = false,
+            altCd = "nil",
+            lvlReq = 55,
+            tar = true,
+            glyph = GetGlyphName[47476],
+            glyphCd = 20
+        },
+		-- Mind Freeze
+        [GetSpellInfo(47528)] = {
+            nr = 10,
+            id = 47528,
+            cd = 10,
+            spec = "Any",
+            talent = "nil",
+            talReq = false,
+            altCd = "nil",
+            lvlReq = 55,
+            tar = true,
+            glyph = "nil",
+            glyphCd = 0
         }
     },
     ["DRUID"] = {
         -- Barkskin
         [GetSpellInfo(22812)] = {
-            nr = 5,
+            nr = 11,
             id = 22812,
             cd = 60,
             spec = "Any",
@@ -115,7 +185,7 @@ BLT.spells = {
         },
         -- Innervate
         [GetSpellInfo(29166)] = {
-            nr = 2,
+            nr = 12,
             id = 29166,
             cd = 180,
             spec = "Any",
@@ -129,7 +199,7 @@ BLT.spells = {
         },
         -- Rebirth
         [GetSpellInfo(48477)] = {
-            nr = 1,
+            nr = 13,
             id = 48477,
             cd = 600,
             spec = "Any",
@@ -143,7 +213,7 @@ BLT.spells = {
         },
         -- Survival Instincts
         [GetSpellInfo(61336)] = {
-            nr = 4,
+            nr = 14,
             id = 61336,
             cd = 180,
             spec = "Feral",
@@ -157,7 +227,7 @@ BLT.spells = {
         },
         -- Tranquility
         [GetSpellInfo(26983)] = {
-            nr = 3,
+            nr = 15,
             id = 26983,
             cd = 480,
             spec = "Any",
@@ -173,7 +243,7 @@ BLT.spells = {
     ["HUNTER"] = {
         -- Misdirection
         [GetSpellInfo(34477)] = {
-            nr = 33,
+            nr = 16,
             id = 34477,
             cd = 30,
             spec = "Any",
@@ -189,7 +259,7 @@ BLT.spells = {
     ["MAGE"] = {
         -- Ice Block
         [GetSpellInfo(45438)] = {
-            nr = 37,
+            nr = 17,
             id = 45438,
             cd = 300,
             spec = "Any",
@@ -205,7 +275,7 @@ BLT.spells = {
     ["PALADIN"] = {
         -- Ardent Defender
         [GetSpellInfo(66233)] = {
-            nr = 21,
+            nr = 18,
             id = 66233,
             cd = 120,
             spec = "Protection",
@@ -219,7 +289,7 @@ BLT.spells = {
         },
         -- Aura Mastery
         [GetSpellInfo(31821)] = {
-            nr = 13,
+            nr = 19,
             id = 31821,
             cd = 120,
             spec = "Any",
@@ -247,7 +317,7 @@ BLT.spells = {
         },
         -- Divine Sacrifice
         [GetSpellInfo(64205)] = {
-            nr = 14,
+            nr = 21,
             id = 64205,
             cd = 120,
             spec = "Any",
@@ -275,7 +345,7 @@ BLT.spells = {
         },
         -- Hand of Freedom
         [GetSpellInfo(1044)] = {
-            nr = 18,
+            nr = 23,
             id = 1044,
             cd = 25,
             spec = "Any",
@@ -289,7 +359,7 @@ BLT.spells = {
         },
         -- Hand of Protection
         [GetSpellInfo(10278)] = {
-            nr = 17,
+            nr = 24,
             id = 10278,
             cd = 300,
             spec = "Any",
@@ -303,7 +373,7 @@ BLT.spells = {
         },
         -- Hand of Sacrifice
         [GetSpellInfo(6940)] = {
-            nr = 15,
+            nr = 25,
             id = 6940,
             cd = 120,
             spec = "Any",
@@ -317,7 +387,7 @@ BLT.spells = {
         },
         -- Hand of Salvation
         [GetSpellInfo(1038)] = {
-            nr = 16,
+            nr = 26,
             id = 1038,
             cd = 120,
             spec = "Any",
@@ -331,7 +401,7 @@ BLT.spells = {
         },
         -- Lay on Hands
         [GetSpellInfo(48788)] = {
-            nr = 19,
+            nr = 27,
             id = 48788,
             cd = 1200,
             spec = "Any",
@@ -347,7 +417,7 @@ BLT.spells = {
     ["PRIEST"] = {
         -- Divine Hymn
         [GetSpellInfo(64843)] = {
-            nr = 25,
+            nr = 28,
             id = 64843,
             cd = 480,
             spec = "Any",
@@ -375,7 +445,7 @@ BLT.spells = {
         },
         -- Dispersion
         [GetSpellInfo(47585)] = {
-            nr = 28,
+            nr = 30,
             id = 47585,
             cd = 120,
             spec = "Shadow",
@@ -389,7 +459,7 @@ BLT.spells = {
         },
         -- Guardian Spirit
         [GetSpellInfo(47788)] = {
-            nr = 24,
+            nr = 31,
             id = 47788,
             cd = 180,
             spec = "Holy",
@@ -403,7 +473,7 @@ BLT.spells = {
         },
         -- Hymn of Hope
         [GetSpellInfo(64901)] = {
-            nr = 26,
+            nr = 32,
             id = 64901,
             cd = 360,
             spec = "Any",
@@ -417,7 +487,7 @@ BLT.spells = {
         },
         -- Pain Suppression
         [GetSpellInfo(33206)] = {
-            nr = 23,
+            nr = 33,
             id = 33206,
             cd = 180,
             spec = "Discipline",
@@ -431,7 +501,7 @@ BLT.spells = {
         },
         -- Power Infusion
         [GetSpellInfo(10060)] = {
-            nr = 27,
+            nr = 34,
             id = 10060,
             cd = 120,
             spec = "Discipline",
@@ -447,7 +517,7 @@ BLT.spells = {
     ["ROGUE"] = {
         -- Tricks of the Trade
         [GetSpellInfo(57934)] = {
-            nr = 34,
+            nr = 35,
             id = 57934,
             cd = 30,
             spec = "Any",
@@ -463,7 +533,7 @@ BLT.spells = {
     ["SHAMAN"] = {
         -- Bloodlust/Heroism
         [GetSpellInfo(hero)] = {
-            nr = 30,
+            nr = 36,
             id = hero,
             cd = 300,
             spec = "Any",
@@ -477,7 +547,7 @@ BLT.spells = {
         },
         -- Mana Tide Totem
         [GetSpellInfo(16190)] = {
-            nr = 31,
+            nr = 37,
             id = 16190,
             cd = 300,
             spec = "Restoration",
@@ -491,7 +561,7 @@ BLT.spells = {
         },
         -- Reincarnation
         [GetSpellInfo(20608)] = {
-            nr = 32,
+            nr = 38,
             id = 20608,
             cd = 1800,
             spec = "Any",
@@ -507,7 +577,7 @@ BLT.spells = {
     ["WARLOCK"] = {
         -- Soulshatter
         [GetSpellInfo(29858)] = {
-            nr = 36,
+            nr = 39,
             id = 29858,
             cd = 300,
             spec = "Any",
@@ -521,7 +591,7 @@ BLT.spells = {
         },
         -- Soulstone Resurrection
         [GetSpellInfo(47883)] = {
-            nr = 35,
+            nr = 40,
             id = 47883,
             cd = 900,
             spec = "Any",
@@ -537,7 +607,7 @@ BLT.spells = {
     ["WARRIOR"] = {
         -- Last Stand
         [GetSpellInfo(12975)] = {
-            nr = 12,
+            nr = 41,
             id = 12975,
             cd = 180,
             spec = "Protection",
@@ -551,7 +621,7 @@ BLT.spells = {
         },
         -- Shield Wall
         [GetSpellInfo(871)] = {
-            nr = 11,
+            nr = 42,
             id = 871,
             cd = 300,
             spec = "Any",
@@ -581,7 +651,7 @@ BLT.items = {
     ["ITEMS"] = {
         -- Glowing Twilight Scale
         [GetItemInfo(54589) or GetItemName[54589]]  = {
-            nr = 38,
+            nr = 43,
             spellId = 75490,
             spellIdHc = 75495,
             itemId = 54589,
@@ -589,7 +659,7 @@ BLT.items = {
         },
         -- Sindragosa's Flawless Fang
         [GetItemInfo(50364) or GetItemName[50364]]  = {
-            nr = 39,
+            nr = 44,
             spellId = 71635,
             spellIdHc = 71638,
             itemId = 50364,
