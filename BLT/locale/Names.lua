@@ -12,6 +12,7 @@ if GetLocale() == "deDE" then
         [51052] = "Antimagisches Feld",
         [55233] = "Vampirblut",
         [49016] = "Bösartigkeit",
+		[42650] = "Nacht der Toten",
         [61336] = "Überlebensinstinkte",
         [26983] = "Verbesserte Gelassenheit",
         [45438] = "Eisschollen",
@@ -49,6 +50,7 @@ elseif GetLocale() == "esES" or GetLocale() == "esMX" then
         [51052] = "Zona antimagia",
         [55233] = "Sangre vampírica",
         [49016] = "Histeria",
+		[42650] = "Noche de los muertos",
         [61336] = "Instintos de supervivencia",
         [26983] = "Tranquilidad mejorada",
         [45438] = "Témpanos de hielo",
@@ -86,6 +88,7 @@ elseif GetLocale() == "frFR" then
         [51052] = "Zone anti-magie",
         [55233] = "Sangre vampírica",
         [49016] = "Hystérie",
+		[42650] = "Nuit des morts",
         [61336] = "Instincts de survie",
         [26983] = "Tranquillité améliorée	",
         [45438] = "Iceberg",
@@ -123,6 +126,9 @@ elseif GetLocale() == "ruRU" then
         [51052] = "Зона антимагии",
         [55233] = "Кровь вампира",
         [49016] = "Истерия",
+        [42650] = "Ночь мертвецов",
+		[49206] = "Призыв горгульи",
+		[49576] = "Нечестивый приказ",
         [61336] = "Инстинкты выживания",
         [26983] = "Улучшенное спокойствие",
         [45438] = "Айсберг",
@@ -143,6 +149,7 @@ elseif GetLocale() == "ruRU" then
         [871]   = "Отработанные навыки"
     }
     BLT_GlyphNames = {
+        [47476] = "Символ удушения",
         [48788] = "Символ возложения рук",
         [6346]  = "Символ защиты от страха",
         [47585] = "Символ слияния с Тьмой",
@@ -160,6 +167,7 @@ elseif GetLocale() == "zhCN" or GetLocale() == "zhTW" then
         [51052] = "反魔法领域",
         [55233] = "吸血鬼之血",
         [49016] = "狂乱",
+        [42650] = "IDONKNOWTHISLANGUAGE",
         [61336] = "生存本能",
         [26983] = "强化宁静",
         [45438] = "浮冰",
@@ -197,6 +205,9 @@ else
         [51052] = "Anti-Magic Zone",
         [55233] = "Vampiric Blood",
         [49016] = "Hysteria",
+        [42650] = "Night of the Dead",
+		[49206] = "Summon Gargoyle",
+		[49576] = "Unholy Command",
         [61336] = "Survival Instincts",
         [26983] = "Improved Tranquility",
         [45438] = "Ice Floes",
@@ -217,6 +228,7 @@ else
         [871]   = "Improved Disciplines"
     }
     BLT_GlyphNames = {
+		[47476] = "Glyph of Strangulate",
         [48788] = "Glyph of Lay on Hands",
         [6346]  = "Glyph of Fear Ward",
         [47585] = "Glyph of Dispersion",
