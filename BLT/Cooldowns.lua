@@ -97,7 +97,7 @@ BLT.spells = {
             glyph = "nil",
             glyphCd = 0
         },
-		-- Army of the Dead
+	-- Army of the Dead
         [GetSpellInfo(42650)] = {
             nr = 6,
             id = 42650,
@@ -111,7 +111,7 @@ BLT.spells = {
             glyph = "nil",
             glyphCd = 0
         },
-		-- Summon Gargoyle
+	-- Summon Gargoyle
         [GetSpellInfo(49206)] = {
             nr = 7,
             id = 49206,
@@ -125,7 +125,7 @@ BLT.spells = {
             glyph = "nil",
             glyphCd = 0
         },
-		-- Death Grip
+	-- Death Grip
         [GetSpellInfo(49576)] = {
             nr = 8,
             id = 49576,
@@ -139,7 +139,7 @@ BLT.spells = {
             glyph = "nil",
             glyphCd = 0
         },
-		-- Strangulate
+	-- Strangulate
         [GetSpellInfo(47476)] = {
             nr = 9,
             id = 47476,
@@ -153,7 +153,7 @@ BLT.spells = {
             glyph = GetGlyphName[47476],
             glyphCd = 20
         },
-		-- Mind Freeze
+	-- Mind Freeze
         [GetSpellInfo(47528)] = {
             nr = 10,
             id = 47528,
