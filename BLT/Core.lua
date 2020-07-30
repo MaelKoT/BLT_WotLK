@@ -69,7 +69,7 @@ local defaults = {
             [16190] = true, -- Mana Tide Totem
             [47883] = true, -- Soulstone Resurrection
             [54589] = true, -- Glowing Twilight Scale
-            [42650] = true	-- Army of the Dead
+            [42650] = true  -- Army of the Dead
         }
     }
 }
