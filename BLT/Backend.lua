@@ -38,9 +38,9 @@ BLT.specificTalents = {
         ["Hysteria"] = {1,19},
         ["Vampiric Blood"] = {1,23},
         ["Anti-Magic Zone"] = {3,22},
-		["Unholy Command"] = {3,6},
-		["Night of the Dead"] = {3,13},
-		["Summon Gargoyle"] = {3,31}
+	["Unholy Command"] = {3,6},
+	["Night of the Dead"] = {3,13},
+	["Summon Gargoyle"] = {3,31}
     },
     ["DRUID"] = {
         ["Survival Instincts"] = {2,7},
